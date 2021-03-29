@@ -22,5 +22,8 @@ After performing this adjustment, the results are as follows:
 <img width="696" alt="Capture before" src="https://user-images.githubusercontent.com/79733383/112784662-3c4d8a80-9020-11eb-8097-31703b778a82.PNG">
 
 To the following:
+
 <img width="699" alt="Capture after" src="https://user-images.githubusercontent.com/79733383/112784683-496a7980-9020-11eb-8f80-51c9831d135c.PNG">
 
+2. The school summary was greatly affected for the High school in question, this is because the initial summary calculated the total student counts, and excluded the 9th grade counts from the passing counts, which meant that the percentages of passing for math, reading and overall scores dropped greatly.
+3. To adjust this, we had to calculate the number of students that were excluded, subtract this number from the total number of students for this school, the re-calculate the percentages with the adjusted totals. This caused the Percentage of students passing math to go from 66.9% to 93.2% & that of reading to go from 69.6% to 97%. And the overall passing percentage went from 65.07% to 90.6%. This big change shows the importance of data integrity & confirming the analysis is performed with teh accurate values.
